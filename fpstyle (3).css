@@ -1,0 +1,759 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    background-position: right;
+    background: url("https://innovationorigins.com/app/uploads/2022/04/y3SRqPoU-DnaLights.jpg") no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    padding-left: 0px;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 150px;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+
+.logo {
+
+    color: #ff7200;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    padding-right: 15px;
+    float: right;
+    padding-top: 10px;
+    margin-top: 5px;
+    align-items: right;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+    padding-left: 100px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+input,
+label {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: none;
+    border-radius: 7px 5px;
+    outline: none;
+    color: #fff;
+    box-decoration-break: clone;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.about {
+    width: 1500px;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    top: -100px;
+
+}
+
+.about .Apar {
+    padding-left: 0px;
+    padding-bottom: 50px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: center;
+    right: -250px;
+
+}
+
+.about h3 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 0px;
+    padding-top: -10%;
+    margin-top: 8%;
+    letter-spacing: zpx;
+    color: #ff7200;
+
+}
+
+.content .par {
+    padding-right: 250px;
+    padding-bottom: 75px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: justify;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-right: 200px;
+    padding-top: 20px;
+    margin-top: 8%;
+    margin-right: 10%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: #fff;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 65px
+}
+
+input[name=sub] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 95px;
+    left: -370px;
+}
+
+input[name=delete] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 150px;
+    left: -370px;
+}
+
+input[name=update] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 210px;
+    left: -370px;
+}
+
+input[name=update_val] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 270px;
+    left: -370px;
+}
+
+input[name=delete_val] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 330px;
+    left: -370px;
+}
+
+input[name=insert_val] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 380px;
+    left: -370px;
+}
+
+input[name=select_val] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 430px;
+    left: -370px;
+}
+
+input[name=len] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 490px;
+    left: -370px;
+}
+
+input[name=GC] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 560px;
+    left: -370px;
+}
+
+input[name=CPG] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 620px;
+    left: -370px;
+}
+
+input[name=n] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 690px;
+    left: -370px;
+}
+
+input[name=transcripe] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 750px;
+    left: -370px;
+}
+
+input[name=Compseq] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 810px;
+    left: -370px;
+}
+
+input[name=revcompseq] {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 870px;
+    left: -370px;
+}
+
+.off-sym h4 {
+    float: left;
+    margin: 0px;
+    padding-right: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #fff;
+}
+
+.off-sym {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: left;
+
+}
+
+.off-full-name h4 {
+    float: left;
+    margin: 0px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #fff;
+}
+
+.off-full-name {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.primary-sourc h4 {
+    float: left;
+    margin: 0px;
+    padding-right: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #fff;
+}
+
+.primary-sourc {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: left;
+}
+
+
+.Gene-type h4 {
+    float: left;
+    margin: 0px;
+    padding-right: 90px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #fff;
+
+}
+
+.Gene-type {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.Organism h4 {
+    float: left;
+    margin: 0px;
+    padding-right: 90px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #fff;
+}
+
+.Organism {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.Exp h4 {
+    float: left;
+    margin: 0px;
+    padding-right: 85px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #fff;
+}
+
+.Exp {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.known-as h4 {
+    float: left;
+    margin: 0px;
+    padding-right: 55px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #fff;
+}
+
+.known-as {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.loc h4 {
+    float: left;
+    margin: 0px;
+    padding-right: 110px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #fff;
+
+}
+
+.loc {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.igene h3 {
+    float: left;
+    margin: 0px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #fff;
+    text-align: center;
+}
+
+.igene {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: left;
+
+}
+
+.GEN-Protein h4 {
+    float: left;
+    margin: 0px;
+
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #ff7200;
+}
+
+.GEN-Protein {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.related-Articles h4 {
+    color: #ff7200;
+}
+
+.Associated-conditions h4 {
+    color: #ff7200;
+}
+
+.Copy-number-response h4 {
+    color: #ff7200;
+}
+
+.EBI-GWAS-Catalog h4 {
+    color: #ff7200;
+}
+
+.Variation h4 {
+    color: #ff7200;
+}
+
+.add-links h4 {
+    color: #ff7200;
+}
+
+.fasta {
+    width: 300px;
+    border: 15px #ff7200;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+.gene-bank {
+    width: 300px;
+    border: 15px #ff7200;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+
+.fasta h2 {
+    color: #ff7200;
+}
+
+.gene-bank h2 {
+    color: #ff7200;
+}
+
+.gene-bank h5 {
+    color: #ff7200;
+}
+
+.table {
+    width: 1500px;
+    border: 15px #ff7200;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+.details {
+    width: 1500px;
+    border: 15px #ff7200;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+.ncbi-ref-seq {
+    width: 1500px;
+    border: 15px #ff7200;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 20px;
+}
+
+.Genomic Sequence {
+
+    width: 1500px;
+    border: 15px #ff7200;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 20px;
+    font-size: 25px;
+}
+
+
+input[type=password] {
+    width: 240px;
+    height: 40px;
+    background: whitesmoke;
+    -webkit-text-fill-color: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+input[name=email] {
+    width: 240px;
+    height: 40px;
+    background: whitesmoke;
+    -webkit-text-fill-color: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.log {
+    position: relative;
+    margin-top: 35px;
+    margin-left: 50px;
+    padding-left: 130px;
+    width: 520px;
+    height: 450px;
+    background: transparent;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    flex-direction: column;
+
+
+}
+
+input[name=login] {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    float: left;
+    padding: 10px 24px;
+}
+
+input[name=name] {
+    width: 240px;
+    height: 40px;
+    background: whitesmoke;
+    -webkit-text-fill-color: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}

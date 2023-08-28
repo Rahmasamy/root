@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Raleway:ital,wght@0,300;0,400;1,300;1,400&family=Roboto+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Raleway:ital,wght@0,300;0,400;1,300;1,400&family=Roboto+Mono:ital,wght@1,300&family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Slab;
+}
+
+a {
+    color: whitesmoke;
+    padding: 10px 5px;
+    margin: 10px 10 15px;
+
+
+
+}
+
+h4 {
+    font-family: Roboto Slab;
+    text-shadow: 0.1px 0.1px whitesmoke;
+    padding: 8px 5px;
+    margin: 7px 6px;
+    font-weight: 250;
+
+
+}
+
+.Associated-conditions {
+    margin-top: 95px;
+    padding-left: 8px;
+    font-size: 18px;
+
+}
+
+.Associated-conditions h4 {
+    font-family: Roboto Slab;
+    padding-left: 7px;
+    font-size: 20px;
+    display: block;
+
+}
